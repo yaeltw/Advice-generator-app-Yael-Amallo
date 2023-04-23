@@ -1,0 +1,90 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: hsl(217, 19%, 24%);
+  position: relative;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  min-width: 300px;
+}
+main p {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+main h2 {
+  margin-top: 20px;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+  margin-bottom: 40px;
+}
+main .imagen-divisora {
+  margin-bottom: 20px;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+main .redondo-verde {
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  display: inline-block;
+  padding: 16px;
+  position: absolute;
+  top: 93%;
+  left: 44%;
+  border: none;
+  cursor: pointer;
+}
+main .redondo-verde:hover {
+  background-color: hsl(150, 40%, 54%);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
